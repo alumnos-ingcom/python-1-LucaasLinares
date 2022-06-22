@@ -32,4 +32,4 @@ minutos = int(input("minutos: "))
 segundos = int(input("segundos: "))
 
 decimal = sexadecimal_a_decimal(grados, minutos, segundos)
-print("son ",decimal)
+print("son ",decimal,"segundos")
