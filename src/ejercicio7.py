@@ -20,8 +20,3 @@ def decimal_a_sexadecimal(numero):
     minutos = (numero - (grados * 3600)) // 60
     segundo = numero - (grados * 3600) - (minutos * 60)
     return (grados,minutos,segundo)
-
-
-numero = 4242
-grados,minutos,segundos = decimal_a_sexadecimal (numero)
-print("",grados,minutos,segundos)
